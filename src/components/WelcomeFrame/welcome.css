@@ -1,7 +1,9 @@
 .Welcome-main{
+    display: flex;
+    flex-direction: row;
     width: 1120px;
     height: 120px;
-    margin-top:40px;
+    margin-top:30px;
     margin-left: 20px;
     border-radius: 8px;
     border: 1px solid;
@@ -31,8 +33,26 @@
     margin-left: 16px;
     color: #757575;
     margin-top: 0%;
+    margin-right: 80px;
 }
 
 .welcome-link{
     color: #BC006D;
+}
+
+.welcome-img{
+    width: 167px;
+    height: 179px;
+    top: -30px;
+    left: 889px;
+
+}
+
+.close-icon{
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: 1080px;
+    padding: 6px;
+
 }
