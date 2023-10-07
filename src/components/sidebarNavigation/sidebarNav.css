@@ -1,0 +1,67 @@
+.Sidebar-Navigation{
+    background-color: #33074F;
+    width: 272px;
+    height: 900px;
+}
+
+.Sidebar-TitleBox{
+    height: 80px;
+    background-color: #EBE6ED1A;
+}
+
+.Sidebar-Title {
+    width: 175px;
+    height: 32px;
+    margin-top: 3px;
+    margin-left: 60px; 
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left; 
+         
+}
+
+
+.dashboard-frame61{
+    
+    width: Hug (240px);
+    height: Hug (40px);
+    margin-top: 140px;
+    margin-left: 16px;
+    gap: 8px;
+    
+}
+
+
+.frame56{
+    width: Fixed (240px);
+    height: Hug (40px);
+    padding: 8px, 12px, 8px, 12px;
+    border-radius: 24px;
+    gap: 8px;
+}
+
+.frame55{
+    width: Hug (240px);
+    height: Hug (40px);
+    margin-top: 140px;
+    margin-left: 16px;
+    gap: 8px;
+}
+
+.dashboard-icon{
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+}
+
+.large-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
