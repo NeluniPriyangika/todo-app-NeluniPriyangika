@@ -3,6 +3,7 @@ import './rightPane.css'
 import Notifications from '../../assets/Notifications.svg'
 import Profile from '../../assets/Profile.svg'
 import ChevronDown from '../../assets/Chevron-down.svg'
+import Welcome from '../WelcomeFrame/Welcome'
 
 function RightPane() {
   return (
@@ -16,6 +17,10 @@ function RightPane() {
                 <img className="profile-icon" src={Profile} alt="" />
                 <img className='down-icon' src={ChevronDown} alt="" />
           </div> 
+        </div>
+        <div className='devider-line'/>
+        <div className='welcomeframe-div'>
+          <Welcome/>
         </div>
   ` </div>   
   )
