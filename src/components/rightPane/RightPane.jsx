@@ -1,10 +1,10 @@
 import React from 'react'
-import './headerNav.css'
+import './rightPane.css'
 import Notifications from '../../assets/Notifications.svg'
 import Profile from '../../assets/Profile.svg'
 import ChevronDown from '../../assets/Chevron-down.svg'
 
-function HeaderNav() {
+function RightPane() {
   return (
     <div className='main-Right'>
         <div className='Header-Navigation'>
@@ -21,4 +21,4 @@ function HeaderNav() {
   )
 }
 
-export default HeaderNav
+export default RightPane
