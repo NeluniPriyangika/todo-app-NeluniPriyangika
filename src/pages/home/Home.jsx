@@ -1,11 +1,7 @@
 import React from 'react';
 import './home.css';
-import SidebarNavigation from '../../components/SidebarNavigation/SidebarNav';
-import RightPane from '../../components/RightPane/RightPane';
-
-
-
-
+import SidebarNavigation from '../../components/sidebarNavigation/SidebarNav';
+import RightPane from '../../components/rightPane/RightPane';
 
 function Home() {
   return (
