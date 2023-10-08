@@ -32,6 +32,20 @@
     color: #000000;
 }
 
+.tasksPagination{
+    width: 208px;
+    height: 32px;
+    margin-top: 24px;
+    margin-left: 250px;
+}
+
+.pageActive{
+    background: linear-gradient(0deg, #BC006D, #BC006D),
+              linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #BC006D;
+    color: #BC006D;
+}
+
 
 
 

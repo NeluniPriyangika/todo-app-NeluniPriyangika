@@ -1,6 +1,7 @@
 import React from 'react'
 import './tasks.css'
 import TaskUnits from '../TaskUnits/TaskUnits'
+import Pagination from 'react-bootstrap/Pagination';
 
 function Tasks() {
   return (
@@ -21,10 +22,16 @@ function Tasks() {
         <TaskUnits/>
         <TaskUnits/>
         <TaskUnits/>
-        <TaskUnits/>
-        <TaskUnits/>
-        <TaskUnits/>
       </div>
+      <div className='tasksPagination'>
+        <Pagination>
+          <Pagination.Prev />
+          <Pagination.Item className='pageActive'>{1}</Pagination.Item>
+          <Pagination.Item>{2}</Pagination.Item>
+          <Pagination.Item>{3}</Pagination.Item>
+          <Pagination.Next />
+        </Pagination>
+      </div> 
     </div>
   )
 }
