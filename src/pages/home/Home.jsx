@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className='home-Main'>
       <div className='sidebarLeft'><SidebarNavigation/></div>
-      <div className='page-Right'><RightPane/></div> 
+      <div className='page-Right'><RightPane/></div>
     </div>
   )
 }
