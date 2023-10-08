@@ -7,7 +7,6 @@ function SidebarNav() {
     <div className='Sidebar-Navigation'>
         <div className='Sidebar-TitleBox'>
           <div className='metjip-logo-white-1'>
-            <img src={Dashboard} alt="" />
           </div>
           <div className='Sidebar-Title' >
               Acmy Soluction
