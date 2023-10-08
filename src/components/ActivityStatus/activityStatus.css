@@ -1,0 +1,20 @@
+.activitystatus-container{
+    display: flex;
+    flex-direction: row;
+    width: Fixed (408px);
+    height: Hug (70px);
+    margin-top: 10px;
+    margin-left: 10px;;
+    gap: 8px;
+    background-color: brown;
+}
+
+.activity-imag{
+    width: 32px;
+    height: 32px;
+}
+
+.activitystatus-cont{
+    display: flex;
+    flex-direction: row;
+}

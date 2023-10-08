@@ -1,5 +1,6 @@
 import React from 'react'
 import './activity.css'
+import ActivityStatus from '../ActivityStatus/ActivityStatus'
 
 function Activity() {
   return (
@@ -8,13 +9,14 @@ function Activity() {
             <div className='activity-title'>
                 Activity Feed
             </div>
+            <div className='activity-divider'></div>
             <div className='activity-content'>
-                <div className='activity-status'>
-                    tasksstatus
+                <div className='activity-statusComp'>
+                    <ActivityStatus/>
                 </div>
                 <div className='scrollbar-div'>
                     <div className='scrollbar-small'>
-                        
+
                     </div>  
                 </div>
             </div>
