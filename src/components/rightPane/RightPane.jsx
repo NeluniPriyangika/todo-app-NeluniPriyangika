@@ -4,6 +4,9 @@ import Notifications from '../../assets/Notifications.svg'
 import Profile from '../../assets/Profile.svg'
 import ChevronDown from '../../assets/Chevron-down.svg'
 import Welcome from '../WelcomeFrame/Welcome'
+import Tasks from '../Tasks/Tasks'
+import Activity from '../ActivityFeed/Activity'
+import Chart from '../chart/Chart'
 
 function RightPane() {
   return (
@@ -21,6 +24,19 @@ function RightPane() {
         <div className='devider-line'/>
         <div className='welcomeframe-div'>
           <Welcome/>
+        </div>
+        <div className='rightPane-bottom-container'>
+          <div className='task-comp'>
+            <Tasks/>
+          </div>
+          <div className='act-TPri-container'>
+            <div className='actFeed-comp'>
+              <Activity/>
+            </div>
+            <div className='taskPri-comp'>
+              <Chart/>
+            </div>
+          </div>
         </div>
   ` </div>   
   )

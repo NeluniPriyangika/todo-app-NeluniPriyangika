@@ -18,8 +18,7 @@ function Welcome() {
       </div>
       <div className='close-icon'>
         <img src={Closeimg} alt="" />
-      </div>
-      
+      </div>  
     </div>
   )
 }
