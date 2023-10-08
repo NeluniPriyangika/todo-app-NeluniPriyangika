@@ -44,17 +44,15 @@ export function PieChart() {
   return (
     <div className='chart-container'>
         <div className='chart-titlediv'>
-            <div className='chart-title'>
-                Tasks Priorities
-            </div>
-            <div className='chart-divider'></div>  
+            <div className='chart-title'>Tasks Priorities</div>
+            <div className='chart-divider'></div> 
               <GoogleChart className="gChart"
-                chartType="PieChart"
-                width="250px"
-                height="250px"
-                data={data}
-                options={options}
-              />   
+                    chartType="PieChart"
+                    width="245px"
+                    height="245px"
+                    data={data}
+                    options={options}
+                  />    
         </div>
     </div>
   )

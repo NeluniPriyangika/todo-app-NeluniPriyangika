@@ -14,23 +14,15 @@ const data = [
     {
         id:2,
         image: IMG2,
-        title: "Kushantha Charuka created Contract #00124 need John Beige’s signature",
-        date : "Sep 16, 2022 at 11:30 AM",
+        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium neque",
+        date : "Sep 16, 2022 at 11:45 AM",
     },
     {
         id:3,
         image: IMG2,
-        title: "Kushantha Charuka created Contract #00124 need John Beige’s signature",
-        date : "Sep 16, 2022 at 11:30 AM",
+        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium neque",
+        date : "Sep 16, 2022 at 11:45 AM",
     },
-
-    {
-        id:4,
-        image: IMG2,
-        title: "Kushantha Charuka created Contract #00124 need John Beige’s signature",
-        date : "Sep 16, 2022 at 11:30 AM",
-    },
-
 
 ]
 
@@ -44,7 +36,7 @@ function ActivityStatus() {
                         <img className='activity-imag' src={image} alt="" />
                         <div className='activitystatus-cont'>
                             <div className='activity-status'>{title}</div>
-                        <div className='activity-dat&time'>{date}</div>
+                            <div className='activity-dat-time'>{date}</div>
                         </div>
                     </div>
                 )

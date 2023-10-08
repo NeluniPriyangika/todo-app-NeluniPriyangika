@@ -15,9 +15,7 @@ function Activity() {
                     <ActivityStatus/>
                 </div>
                 <div className='scrollbar-div'>
-                    <div className='scrollbar-small'>
-
-                    </div>  
+                    <div className='scrollbar-small'></div>  
                 </div>
             </div>
         </div> 
