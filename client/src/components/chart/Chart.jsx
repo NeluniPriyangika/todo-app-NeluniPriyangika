@@ -10,7 +10,7 @@ export function Chart() {
   ]);
 
   useEffect(() => {
-    fetch("https://6363c8f68a3337d9a2e7d805.mockapi.io/api/to-do") // Replace with your MongoDB API endpoint
+    fetch("http://localhost:5000/api/tasks") // Replace with your MongoDB API endpoint
       .then((response) => response.json())
       .then((todos) => {
         const updatedData = [
