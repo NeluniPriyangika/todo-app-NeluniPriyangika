@@ -1,0 +1,46 @@
+.add-task-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Adjust as needed */
+    height: 487px; /* Fixed height to match the Tasks component */
+    margin: 20px auto;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background-color: #ffffff;
+    overflow: hidden; /* Prevents content overflow */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.add-task-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #D0D5DD;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding is included in height calculation */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #BC006D;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center; /* Align button to the left */
+    margin-top: auto; /* Pushes the button to the bottom */
+    
+}
+
+button:hover {
+    background-color: #A8005D; /* Darker shade for hover effect */
+}

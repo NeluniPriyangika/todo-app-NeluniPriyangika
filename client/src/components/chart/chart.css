@@ -1,6 +1,6 @@
 .chart-container {
     width: 440px;
-    height: 350px;
+    height: 405px;
     margin: 20px auto;
     border-radius: 8px;
     border: 1px solid #D0D5DD;
@@ -18,18 +18,19 @@
     display: flex; /* Added for better alignment */
     flex-direction: column; /* Stack title and divider */
     align-items: center; /* Center align title and divider */
+    justify-content: center;
 }
 
 .chart-title {
     width: 100%;
     padding: 12px 0;
     font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 600;
     line-height: 24px;
     text-align: center; /* Changed to center text */
     color: #000000;
-    margin-left: 0; /* Removed margin for centering */
+    margin-bottom: 20px; /* Removed margin for centering */
 }
 
 .chart-divider {

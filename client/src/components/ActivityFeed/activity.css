@@ -1,6 +1,6 @@
 .activityFeed-container {
-    width: 100%; /* Use full width */
-    max-width: 440px; /* Limit max width */
+    width: 700px; /* Use full width */
+    max-width: 700px; /* Limit max width */
     margin: 20px auto; /* Centered margin */
     border-radius: 8px;
     border: 1px solid #D0D5DD;

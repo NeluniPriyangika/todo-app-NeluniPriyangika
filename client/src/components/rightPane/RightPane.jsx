@@ -3,7 +3,7 @@ import './rightPane.css';
 import Notifications from '../../assets/Notifications.svg';
 import Profile from '../../assets/Profile.svg';
 import ChevronDown from '../../assets/Chevron-down.svg';
-import Welcome from '../WelcomeFrame/Welcome';
+import AddTask from '../../components/AddTask/AddTask';
 import Tasks from '../Tasks/Tasks';
 import Activity from '../ActivityFeed/Activity';
 import Chart from '../chart/Chart';
@@ -22,21 +22,21 @@ function RightPane() {
         </div>
       </div>
       <div className='divider-line' />
-      <div className='welcomeframe-div'>
-        <Welcome />
-      </div>
-      <div className='rightPane-bottom-container'>
-        <div className='task-comp'>
+      <div className='rightPane-top-container'>
+        <div className='welcomeframe-div'>
           <Tasks />
         </div>
-        <div className='act-TPri-container'>
+        <div className='task-comp'>
+            <AddTask />
+        </div>
+      </div>
+      <div className='rightPane-bottom-container'>
           <div className='actFeed-comp'>
             <Activity />
           </div>
           <div className='taskPri-comp'>
             <Chart />
           </div>
-        </div>
       </div>
     </div>
   );

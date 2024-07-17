@@ -54,6 +54,13 @@
     margin: 0; /* No margin */
 }
 
+.rightPane-top-container{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 100px;
+}
+
 .rightPane-bottom-container {
     display: flex;
     flex-direction: row;
@@ -65,8 +72,4 @@
     flex: 1; /* Take available space */
 }
 
-.act-TPri-container {
-    display: flex;
-    flex-direction: column; /* Stack activity and chart vertically */
-    flex: 1; /* Take available space */
-}
+
