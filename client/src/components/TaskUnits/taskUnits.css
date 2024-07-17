@@ -1,0 +1,45 @@
+.task-unit {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space out items */
+    padding: 12px 20px; /* Padding for spacing */
+    border-bottom: 1px solid #E4E7EC; /* Divider line */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.icon-container {
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+}
+
+.task-description {
+    flex: 1; /* Take available space */
+    margin-left: 12px; /* Spacing from the icon */
+    font-family: 'Inter', sans-serif; /* Font with fallback */
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.badge {
+    background: #E8F5E9;
+    border-radius: 16px;
+    padding: 4px 12px; /* Adjust padding */
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.label-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #219653;
+}
+
+.date {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #6B7280; /* Subtle color for date */
+    margin-left: 12px; /* Spacing from the badge */
+}

@@ -1,0 +1,55 @@
+.activityFeed-container {
+    width: 100%; /* Use full width */
+    max-width: 440px; /* Limit max width */
+    margin: 20px auto; /* Centered margin */
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.activity-titlediv {
+    padding: 10px 20px; /* Adjusted padding */
+}
+
+.activity-title {
+    font-family: 'Inter', sans-serif; /* Font family fallback */
+    font-size: 1rem; /* Responsive size */
+    font-weight: 500;
+    line-height: 1.5; /* Improved readability */
+    color: #000000;
+}
+
+.activity-divider {
+    height: 1px;
+    background: #E4E7EC; 
+    margin: 10px 0; /* Space around the divider */
+}
+
+.activity-content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    padding: 0 20px 20px; /* Padding for inner content */
+}
+
+.scrollbar-div {
+    width: 4px;
+    height: 255px;
+    margin-left: 20px; /* Spacing for scrollbar */
+    border-radius: 4px;
+    background: #EEEEEE;
+}
+
+.scrollbar-small {
+    width: 4px;
+    height: 98px; /* Height adjusted */
+    border-radius: 4px;
+    background: #C4C4C4; /* A slightly darker shade */
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 600px) {
+    .activityFeed-container {
+        width: 90%; /* More flexible width on smaller screens */
+    }
+}

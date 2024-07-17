@@ -14,9 +14,6 @@ function Activity() {
                 <div className='activity-statusComp'>
                     <ActivityStatus/>
                 </div>
-                <div className='scrollbar-div'>
-                    <div className='scrollbar-small'></div>  
-                </div>
             </div>
         </div> 
     </div>

@@ -1,0 +1,72 @@
+.main-Right {
+    background-color: #FFFFFF;
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Limit max width */
+    margin: auto; /* Center the container */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.Header-Navigation {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between items */
+    padding: 16px 24px; /* Added padding for spacing */
+}
+
+.main-dashboard-title {
+    font-family: 'Inter', sans-serif; /* Font with fallback */
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.notification-profile {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.bell-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px; /* Space between notification and profile */
+}
+
+.frame68 {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.down-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px; /* Space between profile and dropdown */
+}
+
+.divider-line {
+    width: 100%; /* Full width */
+    height: 1px;
+    background: #EAECF0;
+    margin: 0; /* No margin */
+}
+
+.rightPane-bottom-container {
+    display: flex;
+    flex-direction: row;
+    padding: 16px; /* Added padding for spacing */
+    gap: 16px; /* Space between task and activity/chart sections */
+}
+
+.task-comp {
+    flex: 1; /* Take available space */
+}
+
+.act-TPri-container {
+    display: flex;
+    flex-direction: column; /* Stack activity and chart vertically */
+    flex: 1; /* Take available space */
+}

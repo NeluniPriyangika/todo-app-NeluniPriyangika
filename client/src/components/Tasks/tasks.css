@@ -1,0 +1,54 @@
+.tasks-main {
+    width: 100%; /* Full width */
+    max-width: 700px; /* Limit max width */
+    margin: 20px auto; /* Centered margin */
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background-color: #FFFFFF;
+    padding: 20px; /* Added padding for spacing */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.tasks-title-container {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space between title and divider */
+    margin-bottom: 16px; /* Spacing below title */
+}
+
+.tasks-title {
+    font-family: 'Inter', sans-serif; /* Font with fallback */
+    font-size: 20px; /* Slightly larger font */
+    font-weight: 500;
+    color: #000000;
+}
+
+.task-divider {
+    flex-grow: 1; /* Take remaining space */
+    height: 2px; /* Thicker divider */
+    background-color: #E4E7EC; /* Divider color */
+    margin-left: 20px; /* Space before divider */
+}
+
+.task-units-container {
+    display: flex; /* Flexbox for task units */
+    flex-direction: column; /* Stack vertically */
+    gap: 16px; /* Spacing between task units */
+    max-height: 710px; /* Set max height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 10px; /* Add padding to account for scrollbar */
+}
+
+/* Optional: Style scrollbar for better aesthetics */
+.task-units-container::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.task-units-container::-webkit-scrollbar-thumb {
+    background: #BC006D; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded edges */
+}
+
+.task-units-container::-webkit-scrollbar-track {
+    background: #E4E7EC; /* Color of the scrollbar track */
+}
