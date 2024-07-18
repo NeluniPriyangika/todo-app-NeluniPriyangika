@@ -22,6 +22,10 @@ mongoose.connect(process.env.MONGO_URL, {
 const taskRoutes = require('./routes/taskRoutes');
 app.use('/api/tasks', taskRoutes);
 
+// Import activity routes
+const activityRoutes = require('./routes/activityRoutes');
+app.use('/api/activities', activityRoutes);
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
