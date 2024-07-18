@@ -1,7 +1,6 @@
 import React from 'react';
 import './sidebarNav.css';
 import Dashboard from '../../assets/Dashboard.svg';
-import Comlogo from "../../assets/Tlogo.png";
 
 function SidebarNav() {
   return (
