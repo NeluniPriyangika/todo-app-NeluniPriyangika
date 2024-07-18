@@ -7,6 +7,16 @@ router.post('/', async (req, res) => {
   const newTask = new Task(req.body);
   try {
     const savedTask = await newTask.save();
+
+    // Log activity
+    const activity = new Activity({
+      user: req.body.user, // Assuming user ID is available in req.body
+      action: 'create',
+      description: `Created task with title: ${savedTask.title}`,
+      relatedTask: savedTask._id,
+    });
+    await activity.save();
+
     res.status(201).json(savedTask);
   } catch (err) {
     res.status(400).json({ message: err.message });
