@@ -28,6 +28,8 @@
     padding: 4px 12px; /* Adjust padding */
     display: flex;
     align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    width: 100px; /* Set a fixed width */
 }
 
 .label-text {
@@ -35,6 +37,8 @@
     font-size: 12px;
     font-weight: 500;
     color: #219653;
+    text-align: center; /* Center the text */
+    width: 100%; /* Ensure the text takes full width of the badge */
 }
 
 .date {
