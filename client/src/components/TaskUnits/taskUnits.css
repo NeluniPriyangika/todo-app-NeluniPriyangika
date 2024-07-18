@@ -1,11 +1,11 @@
 .task-unit {
     display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: space-between; /* Space out items */
-    padding: 12px 20px; /* Padding for spacing */
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 12px 20px; 
     border-bottom: 1px solid #E4E7EC; /* Divider line */
     width: 100%; /* Full width */
-    box-sizing: border-box; /* Include padding in width */
+    box-sizing: border-box; 
 }
 
 .icon-container {
@@ -14,8 +14,8 @@
 }
 
 .task-description {
-    flex: 1; /* Take available space */
-    margin-left: 12px; /* Spacing from the icon */
+    flex: 1; 
+    margin-left: 12px; 
     font-family: 'Inter', sans-serif; /* Font with fallback */
     font-size: 14px;
     font-weight: 400;
@@ -25,11 +25,11 @@
 .badge {
     background: #E8F5E9;
     border-radius: 16px;
-    padding: 4px 12px; /* Adjust padding */
+    padding: 4px 12px; 
     display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    width: 100px; /* Set a fixed width */
+    align-items: center; 
+    justify-content: center; 
+    width: 100px; 
 }
 
 .label-text {
@@ -37,20 +37,20 @@
     font-size: 12px;
     font-weight: 500;
     color: #219653;
-    text-align: center; /* Center the text */
-    width: 100%; /* Ensure the text takes full width of the badge */
+    text-align: center; 
+    width: 100%;
 }
 
 .date {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
-    color: #6B7280; /* Subtle color for date */
-    margin-left: 12px; /* Spacing from the badge */
+    color: #6B7280; 
+    margin-left: 12px; 
 }
 
 .delete-icon {
     cursor: pointer; /* Change cursor on hover */
-    width: 24px; /* Adjust icon size */
+    width: 24px; 
     height: 24px;
     margin-left: 12px; /* Spacing from the date */
 }
