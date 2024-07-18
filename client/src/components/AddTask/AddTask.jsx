@@ -18,7 +18,7 @@ function AddTask() {
     };
 
     try {
-      const response = await fetch('http://localhost:5000/api/tasks', { // Ensure this is the correct endpoint
+      const response = await fetch('http://localhost:5000/api/tasks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -27,7 +27,7 @@ function AddTask() {
       });
 
       if (!response.ok) {
-        throw new Error('Error creating task');
+        throw new Error('Failed to create task');
       }
 
       // Clear input fields
@@ -36,11 +36,10 @@ function AddTask() {
       setPriority('LOW');
       setDueDate('');
 
-      // You might want to do something after adding a task (e.g., refetch tasks or show a success message)
       alert('Task created successfully');
     } catch (error) {
       console.error('Error:', error);
-      alert('Error creating task');
+      alert('Failed to create task. Please try again.');
     }
   };
 
