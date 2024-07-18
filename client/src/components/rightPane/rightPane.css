@@ -1,8 +1,8 @@
 .main-Right {
     background-color: #FFFFFF;
     width: 100%; /* Full width */
-    max-width: 1200px; /* Limit max width */
-    margin: auto; /* Center the container */
+    max-width: 100%; /* Limit max width */
+    margin:auto; /* Center the container */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
@@ -11,6 +11,7 @@
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Space between items */
     padding: 16px 24px; /* Added padding for spacing */
+    background-color: #33074F;
 }
 
 .main-dashboard-title {
@@ -18,6 +19,9 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 32px;
+    color: rgb(138, 138, 138);
+    margin: auto;
+
 }
 
 .notification-profile {

@@ -1,16 +1,14 @@
 import React from 'react';
 import './sidebarNav.css';
 import Dashboard from '../../assets/Dashboard.svg';
+import Comlogo from "../../assets/Tlogo.png";
 
 function SidebarNav() {
   return (
     <div className='Sidebar-Navigation'>
       <div className='Sidebar-TitleBox'>
-        <div className='metjip-logo-white-1'>
-          {/* Logo can be added here */}
-        </div>
         <div className='Sidebar-Title'>
-          Acmy Solution
+          TALENTFORT TASK MANAGER
         </div>
       </div>
       <div className='dashboard-frame61'>

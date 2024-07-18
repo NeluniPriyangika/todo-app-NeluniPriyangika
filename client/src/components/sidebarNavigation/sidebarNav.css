@@ -1,51 +1,54 @@
 .Sidebar-Navigation {
     background-color: #33074F;
     width: 272px;
-    height: 100vh; /* Full height */
+    height: 150vh; 
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    padding: 16px; /* Added padding for spacing */
+    flex-direction: column; 
+    padding: 16px; 
 }
 
 .metjip-logo-white-1 {
-    width: 24px;
-    height: 20px;
+    width: 40px; 
+    height: 40px; 
     padding: 3px;
-    /* Logo styling can go here */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Sidebar-TitleBox {
     height: 80px;
-    background-color: rgba(235, 230, 237, 0.1); /* Adjusted for better visibility */
+    background-color: rgba(235, 230, 237, 0.1); 
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center;
 }
 
 .Sidebar-Title {
     margin-left: 16px; 
-    font-family: 'Inter', sans-serif; /* Font with fallback */
+    font-family: 'Inter', sans-serif; 
     font-size: 24px;
     font-weight: 600;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .dashboard-frame61 {
-    margin-top: 20px; /* Spacing from title */
+    margin-top: 20px; 
 }
 
 .frame55 {
     display: flex;
-    align-items: center; /* Center vertically */
+    align-items: center;
     padding: 8px 12px;
     border-radius: 24px;
-    background: rgba(235, 230, 237, 0.1); /* Slightly transparent background */
+    background: rgba(235, 230, 237, 0.1); 
     gap: 8px;
-    cursor: pointer; /* Pointer on hover */
-    transition: background 0.3s; /* Smooth transition */
+    cursor: pointer; 
+    transition: background 0.3s; 
 }
 
 .frame55:hover {
-    background: rgba(255, 255, 255, 0.1); /* Lighten background on hover */
+    background: rgba(255, 255, 255, 0.1); 
 }
 
 .dashboard-icon {
@@ -54,7 +57,7 @@
 }
 
 .large-text {
-    font-family: 'Inter', sans-serif; /* Font with fallback */
+    font-family: 'Inter', sans-serif; 
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;

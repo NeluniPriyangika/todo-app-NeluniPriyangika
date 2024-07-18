@@ -53,15 +53,17 @@
     width: 24px; 
     height: 24px;
     margin-left: 12px; /* Spacing from the date */
+    color: #BC006D;
 }
 
 .taskUnits-Updatebutton{
     padding: 5px;
-    border: none;
-    border-radius: 4px;
-    background-color: #1a57ad;
+    border-color: rgb(76, 221, 247);
+    border-radius: 10px;
+    background-color: #52b3f0;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 500;
     cursor: pointer;
     align-self: center; /* Align button to the left */
     margin-top: auto;

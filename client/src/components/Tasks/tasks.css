@@ -27,7 +27,7 @@
     flex-grow: 1;
     height: 2px; 
     background-color: #E4E7EC; 
-    margin-left: 20px; 
+    margin-left: 20px; /* Space before divider */
 }
 
 .task-units-container {
@@ -45,10 +45,10 @@
 }
 
 .task-units-container::-webkit-scrollbar-thumb {
-    background: #BC006D; /* Color of the scrollbar thumb */
+    background: #888888; /* Color of the scrollbar thumb */
     border-radius: 4px; /* Rounded edges */
 }
 
 .task-units-container::-webkit-scrollbar-track {
-    background: #E4E7EC; 
+    background: #ffffff; 
 }

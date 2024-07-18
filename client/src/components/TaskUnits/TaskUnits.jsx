@@ -43,7 +43,7 @@ function TaskUnits({ task, onDelete , onUpdate}) {
       </div>
       <div className='task-actions'>
         <button className='taskUnits-Updatebutton' onClick={toggleUpdate}>Update Status</button>
-        <MdDelete color='red' onClick={() => onDelete(task._id)} />
+        <MdDelete className='delete-icon' onClick={() => onDelete(task._id)} />
       </div>
       {showUpdate && (
         <UpdateTask task={task} onUpdate={onUpdate} />

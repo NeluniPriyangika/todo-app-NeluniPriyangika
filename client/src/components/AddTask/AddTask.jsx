@@ -37,6 +37,7 @@ function AddTask() {
       setDueDate('');
 
       alert('Task created successfully');
+      window.location.href = '/';
     } catch (error) {
       console.error('Error:', error);
       alert('Failed to create task. Please try again.');
@@ -65,6 +66,7 @@ function AddTask() {
           <option value='MEDIUM'>Medium</option>
           <option value='HIGH'>High</option>
         </select>
+        <div className='dueDate-title'>Add Due Date</div>
         <input
           type='date'
           value={dueDate}

@@ -12,7 +12,7 @@ function RightPane() {
   return (
     <div className='main-Right'>
       <div className='Header-Navigation'>
-        <h4 className='main-dashboard-title'>Dashboard</h4>
+        <h4 className='main-dashboard-title'>DASHBOARD</h4>
         <div className='notification-profile'>
           <img className='bell-icon' src={Notifications} alt="Notifications" />
           <div className='frame68'>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './updateTask.css'; // Ensure to create this CSS file for styling
+import './updateTask.css';
 
 const UpdateTask = ({ task, onUpdate }) => {
   const [status, setStatus] = useState(task.status);
