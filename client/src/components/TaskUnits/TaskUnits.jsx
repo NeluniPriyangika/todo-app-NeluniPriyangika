@@ -1,23 +1,40 @@
 import React from 'react';
 import './taskUnits.css';
-import PriorityLow from '../../assets/Priority-Low.svg';
+import { FcHighPriority, FcLowPriority, FcMediumPriority } from "react-icons/fc";
+import { MdDelete } from "react-icons/md";
 
-function TaskUnits() {
+function TaskUnits({ task, onDelete }) {
+  const getPriorityIcon = (priority) => {
+    switch (priority.toUpperCase()) {
+      case 'HIGH':
+        return <FcHighPriority />;
+      case 'MEDIUM':
+        return <FcMediumPriority />;
+      case 'LOW':
+        return <FcLowPriority />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className='task-unit'>
       <div className='icon-container'>
-        <img src={PriorityLow} alt="Priority Low" />
+        {getPriorityIcon(task.priority)}
       </div>
       <div className='task-description'>
-        Contract #00124 needs John Beige’s signature
+        {task.title}
       </div>
       <div className='badge'>
         <div className='label-text'>
-          Completed
+          {task.status.charAt(0).toUpperCase() + task.status.slice(1)}
         </div>
       </div>
       <div className='date'>
-        Sep 16
+        {new Date(task.dueDate).toLocaleDateString()}
+      </div>
+      <div className='delete-icon' onClick={() => onDelete(task._id)}>
+        <MdDelete color='red' />
       </div>
     </div>
   );

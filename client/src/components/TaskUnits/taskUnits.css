@@ -43,3 +43,10 @@
     color: #6B7280; /* Subtle color for date */
     margin-left: 12px; /* Spacing from the badge */
 }
+
+.delete-icon {
+    cursor: pointer; /* Change cursor on hover */
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+    margin-left: 12px; /* Spacing from the date */
+}
