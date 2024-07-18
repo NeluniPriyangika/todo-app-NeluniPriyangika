@@ -70,7 +70,7 @@ function AddTask() {
           value={dueDate}
           onChange={(e) => setDueDate(e.target.value)}
         />
-        <button type='submit'>Add Task</button>
+        <button className='addtask-button' type='submit'>Add Task</button>
       </form>
     </div>
   );

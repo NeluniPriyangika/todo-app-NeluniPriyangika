@@ -28,7 +28,7 @@ input, textarea, select {
     box-sizing: border-box; /* Ensures padding is included in height calculation */
 }
 
-button {
+.addtask-button {
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -41,6 +41,6 @@ button {
     
 }
 
-button:hover {
+.addtask-button:hover {
     background-color: #A8005D; /* Darker shade for hover effect */
 }

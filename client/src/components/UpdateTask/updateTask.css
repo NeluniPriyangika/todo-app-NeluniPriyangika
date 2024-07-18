@@ -1,0 +1,74 @@
+.update-task-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it overlays other content */
+  }
+  
+  .update-task-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-task-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .task-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .update-task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .update-task-form select {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .update-task-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .update-task-buttons button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .updatestatus-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .back-to-dashboard-button {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+  }
+  
+  .back-to-dashboard-button:hover {
+    background-color: #5a6268;
+  }
+  

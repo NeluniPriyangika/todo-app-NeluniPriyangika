@@ -40,6 +40,16 @@ function Tasks() {
     }
   };
 
+  const handleUpdate = (updatedTask) => {
+    const updatedTasks = tasks.map(task => {
+      if (task._id === updatedTask._id) {
+        return updatedTask;
+      }
+      return task;
+    });
+    setTasks(updatedTasks);
+  };
+
   return (
     <div className='tasks-main'>
       <ToastContainer />
@@ -49,7 +59,7 @@ function Tasks() {
       </div>
       <div className='task-units-container'>
         {tasks.map(task => (
-          <TaskUnits key={task._id} task={task} onDelete={handleDelete} />
+          <TaskUnits key={task._id} task={task} onDelete={handleDelete} onUpdate={handleUpdate} />
         ))}
       </div>
     </div>
